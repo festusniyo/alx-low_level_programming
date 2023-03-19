@@ -20,7 +20,7 @@ int main(void)
 			putchar(' ');
 			putchar((b / 10) + '0');
 			putchar((b % 10) + '0');
-			if (((a / 10) + (a % 10)) != 17 && ((b / 10) + (b % 10)) != 18)
+			if (a != 17 && b != 18)
 			{
 				putchar(',');
 				putchar(' ');
