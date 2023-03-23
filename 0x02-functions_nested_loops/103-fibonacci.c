@@ -11,8 +11,8 @@ int main(void)
 	int x = 0;
 	long y = 1;
 	long z = 2;
+	long sum = z;
 
-	sum = z;
 	while (z + y < 4000000)
 	{
 		z += y;
