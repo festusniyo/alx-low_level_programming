@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - function to check the code
+ * main - function to check the code.
  *
- * Return: 0 returned
+ * Return: always 0.
  */
 int main(void)
 {
@@ -15,3 +15,4 @@ int main(void)
 	c = 'a';
 	printf("%c: %d\n", c, _isupper(c));
 	return (0);
+}
